@@ -1,0 +1,27 @@
+.containerFlex{
+    display: flex;
+    flex-flow: row wrap;
+    
+    justify-content: flex-end;
+}
+.containerFlex > *{
+    flex:1 100%
+}
+
+.header{
+    /* justify-content: flex-start; */
+    text-align: center;
+    /* flex-grow: 4; */
+}
+
+.nav{
+    text-align: center;
+    /* flex-grow: 3; */
+}
+.section{
+    text-align: center;
+    /* flex-grow: 0; */
+} 
+.article{
+    text
+}

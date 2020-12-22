@@ -1,0 +1,27 @@
+.containerFlex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1 auto;
+}
+.headerArea{
+    /* display: flex; */
+    al
+    flex-direction: column;
+    justify-content:center
+}
+.header{
+    flex: 1 1 auto;
+}
+
+.nav{
+    flex: 1 auto;
+}

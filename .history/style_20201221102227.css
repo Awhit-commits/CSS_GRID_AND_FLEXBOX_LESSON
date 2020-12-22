@@ -1,0 +1,36 @@
+.containerFlex{
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+}
+.containerFlex > *{
+  
+    flex:1 100%
+}
+
+
+@media all and (min-width : 600px){
+    .aside
+}
+
+.header{
+  
+    text-align: center;
+    
+}
+
+.nav{
+    text-align: center;
+    /* flex-grow: 3; */
+}
+.section{
+    text-align: center;
+    /* flex-grow: 0; */
+} 
+.article{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+}

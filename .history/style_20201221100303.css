@@ -1,0 +1,17 @@
+.containerFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    text-align: center;
+    flex-grow: 3;
+}
+
+.nav{
+    text-align: center;
+    flex-grow: 3;
+}
+.section{
+    
+}

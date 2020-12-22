@@ -1,0 +1,21 @@
+.containerFlex {
+    display: flex;
+    flex-flow: column wrap;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.containerFlex>* {
+
+    flex: 1 100%
+}
+
+
+@media all and (min-width : 600px) {
+    .aside{
+        flex: 1 0 0;
+    }
+}
+

@@ -1,0 +1,111 @@
+body {
+    width: 100%;
+    text-align: center;
+}
+/* Using Flexbox */
+/* .containerFlex {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.main {
+
+    display: flex;
+    flex-direction: row;
+
+
+
+
+}
+
+.mainArea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+
+}
+
+.header {
+
+    padding: 1% 0;
+    margin-top: 10%;
+    border: 1px solid red;
+
+}
+
+.nav {
+   
+    margin: 5% 0;
+    padding: 1% 0;
+    border: 1px solid blue;
+    
+}
+
+.article {
+    border: 1px purple solid;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.aside {
+   
+   
+    align-items: center;
+   
+    margin: 0 5%;
+    padding: 10% 0;
+    border: 1px orange solid;
+    width: 100%;
+
+
+}
+
+.section {
+    width: 100%;
+    border: 1px yellow solid;
+    margin-bottom: 10%;
+    padding: 5% 0;
+}
+
+.footer {
+
+   
+    padding: 10% 0;
+    margin: 5% 0;
+    border: 1px green solid;
+
+} */
+
+/* Using CSS Grid */
+.containerGrid{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.header{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.nav{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.section{
+    grid-row: 4;
+}
+.article{
+grid-row: 5;
+}
+.aside{
+    grid-row: 4;
+    
+}
+.footer{
+    grid-row:6;
+}

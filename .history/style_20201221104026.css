@@ -1,0 +1,23 @@
+.containerFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.nav {
+    margin: 0.2em;
+    min-height: 8em;
+    padding: 0.5em;
+    width: 10%;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.section {
+    margin: 0.2em;
+    min-height: 8em;
+    padding: 1em;
+    width: 65%;
+    background-color: #9df5d7;
+}

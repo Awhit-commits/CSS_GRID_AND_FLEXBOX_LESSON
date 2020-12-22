@@ -1,0 +1,36 @@
+.containerFlex{
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+}
+.containerFlex > *{
+  
+    flex:1 100%
+}
+
+
+@media all and (min-width : 600px){
+    .aside {flex: 1 auto;}
+}
+@media{
+
+.header{
+  
+    
+    
+}
+
+.nav{
+   
+}
+.section{
+   
+} 
+.article{
+    
+}
+.footer{
+    text-align: center;
+}
+}

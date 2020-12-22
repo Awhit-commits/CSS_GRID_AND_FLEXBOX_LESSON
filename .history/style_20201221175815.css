@@ -1,0 +1,47 @@
+.containerFlex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+
+.main{
+    /* align-self: start;
+    margin-left: 5%; */
+    display: flex;
+
+}
+.headerArea{
+    /* display: flex; */
+    align-self: center;
+    flex-direction: column;
+    /* justify-content:center */
+    
+}
+.header{
+    flex: 1 1 auto;
+    padding: 10%;
+}
+
+.nav{
+    flex: 1 auto;
+    margin:10%;
+    padding:10%;
+}
+.aside{
+    /* display: flex; */
+    /* align-self:flex-end; */
+    align-items:center;
+    /* text-align: center; */
+    /* justify-content:flex-end; */
+    margin-right: 10%;
+    
+
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
